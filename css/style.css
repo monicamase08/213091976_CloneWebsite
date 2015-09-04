@@ -1,0 +1,320 @@
+
+
+
+
+
+body{
+    background-image:url("../img/pattern.jpg");
+    font-family: 'Lato', sans-serif;
+
+}
+.box{
+    width:1000px;
+}
+div#wrapperHeader {
+    background-image:url("../img/header.jpg");
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 100px;
+    top:-10px;
+    width:1000px;
+}
+
+div#wrapperHeader div#header img {
+
+
+    margin:0 auto;
+}
+.form-group{
+    float:center;
+    margin-left:100px;
+}
+
+nav{  
+    background: #b04555;
+    width: 740px;
+    height:30px;
+    margin-left :260px;
+    position: absolute;
+    top: 78px;	
+}
+nav ul{
+    color:#fff;
+    margin-top: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.dropdown{ 
+    position: relative; 
+    width: 100%; 
+}
+
+ul.dropdown li{ 
+    font-weight: bold; 
+    float: left; 
+    width: 123.3px; 
+    position: relative;
+}
+
+ul.dropdown a:hover{ 
+    color: #fff; 
+}
+
+ul.dropdown li a { 
+    display: block; 
+    padding: 10px 0px;
+    color: #fff; 
+    position: relative; 
+    z-index: 2000; 
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+}
+ul.dropdown li a.hover{ 
+    background: #fff;
+    position: relative;
+    color: #34495e;
+    height:10px;
+}
+
+ul.dropdown ul{ 
+    display: none;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 180px; 
+    z-index: 1000;
+}
+
+ul.dropdown ul li { 
+    font-weight: normal; 
+    background: #f6f6f6; 
+    color: #fff; 
+    border-bottom: 1px solid #ccc; 
+}
+
+ul.dropdown ul li a{ 
+    display: block; 
+    color: #34495e !important;
+    background: #eee !important;
+} 
+
+ul.dropdown ul li a:hover{
+    display: block; 
+    background: #b04555 !important;
+    color: #fff !important;
+} 
+
+.drop a{
+
+}
+
+.drop a:after{
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    border-left: 5px solid transparent;
+    border-top: 5px solid #333;
+    border-right: 5px solid transparent;
+    z-index: 999;
+}
+
+.drop > a:hover:after{
+    content:"";
+    border-left: 5px solid transparent;
+    border-top: 5px solid #fff;
+    border-right: 5px solid transparent;
+}
+#mainContent{
+    width: 720px;
+    height: 450px;
+    margin-top: 13px;
+    margin-left: 150px;
+}
+
+#banner{
+    width:750px;
+    height:450px;
+    float:left;
+}
+.donate_btn{
+    margin:20px;
+    margin-top: -70px;
+    position: absolute;}
+
+.donate_btn input{
+    padding:5px 10px;
+    background:#00cdc1;
+    border:1px solid #8ff6f0;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color:#f3f3f3;
+    font-size:1.1em;
+}
+
+.donate_btn input:hover, .donate_btn input:focus{
+    background-color :#b04555; 
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+    border:1px solid #fff;
+}
+.sidebar { 
+    background-color: #b04555;
+    color: #999;
+    width:246px;
+    height: 450px;
+    margin-top: -450px;
+    margin-left: 904px;
+} 
+#ribbon img{
+    margin-left:5px;
+    margin-top:5px;
+    float:relative;
+}
+#ribbon h4{
+    margin-top: -42px;
+    margin-left: 45px;
+    color:#fff;
+    font-size:small-caption;
+}
+.boxes{
+    color:#fff;
+    width:230px;
+    margin-left:8px;
+}
+.boxes h5{
+    text-align:center;
+    margin:10px;
+}
+.boxes a{
+    color:#00cdc1;
+}
+#box1{
+    border:2px solid #b2b4b3;
+    border-radius: 5px;
+    margin-top:30px;
+}
+#box2{
+    border:2px solid #b2b4b3;
+    border-radius: 5px;
+    margin-top:10px;
+}
+#box3{
+    margin-top:10px;
+    border:2px solid #b2b4b3;
+    border-radius: 5px;
+}
+.subcontent{
+    
+    width:1000px;
+    height:90px;
+    margin-left:150px;
+    float:absolute;
+}
+.subcontent h4{
+    color:#34495e;
+    margin:30px;
+    font-size: 105%;
+    width:850px;
+    margin-left:70px;
+    text-align:center;
+}
+.features_bottom{
+    width:100%;
+    padding:0px;
+    margin-bottom:10px;
+    margin-left:150px;
+}
+#footer {
+    background-color:#b04555;
+    width:100%;
+    height:50px;
+}
+.first_img
+{
+    margin-bottom:35px;
+}
+footer
+{
+    background-color:#b04555;
+    width:100%;
+    height:120%;
+    text-align:center;
+    color:white;
+    clear:both;
+}
+
+
+/*----------About---------*/
+.about_col_left
+{
+    float:left;
+    width:47%;
+    margin-top:25px;
+}
+.about_col_right
+{
+    float:right;	
+    width:47%;
+}
+/*----------donors---------*/
+.containing_logo
+{
+    float:left;
+    margin-right:5%;
+}
+.containing_logo p
+{
+    text-align:center;
+}
+/*----------team---------*/
+.team
+{
+
+    width:27%;
+    float:left;
+    text-align:center;
+}
+.team_middle
+{
+    margin:0 8.3%;
+}
+.team_last
+{
+    margin-top:20px;
+}
+.team img
+{
+    width:100%;
+}
+.team img:hover
+{
+    opacity:0.7;
+}
+.partner_img 
+{
+    float:left;
+    margin-right:66px;
+    text-align:center;
+}
+.last_partner
+{
+    margin-right:0;
+}
+.footer_container
+{
+    width:1000px;
+}
+p.n1
+{
+
+}
+
+
+/*Contact Form*/
